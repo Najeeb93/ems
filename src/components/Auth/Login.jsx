@@ -9,12 +9,12 @@ function Login() {
         e.preventDefault()
         console.log('email is', email);
         console.log('password is', password);
-        
+
         setEmail('');
         setPassword('');
     }
     return (
-        <div className="flex h-screen w-screen   items-center justify-center">
+        <div className="flex h-screen w-full   items-center justify-center">
             <div className="border-2 border-emerald-600 rounded-xl p-20">
             <form
             onSubmit={(e)=>{
