@@ -3,7 +3,9 @@ import Header from "../others/Header";
 
 function EmployeeDashboard () {
     return (
-        <Header />
+        <div>
+            <Header />
+        </div>
 
     )
 }
