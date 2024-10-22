@@ -7,7 +7,12 @@ function AdminDashboard () {
             <Header/>
             <div>
                 <form >
-                    
+                    <h3>Task Title</h3>
+                    <input type="text" placeholder="Make ui design" />
+                    <h3>Description</h3>
+                    <textarea name="" id=""></textarea>
+                    <h3>Date</h3>
+                    <input type="date" />
                 </form>
             </div>
         </div>
