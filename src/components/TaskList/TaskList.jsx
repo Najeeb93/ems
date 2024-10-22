@@ -14,6 +14,10 @@ function TaskList() {
             <div className="h-full w-[300px] bg-yellow-400 rounded-xl">
 
             </div>
+
+            <div className="h-full w-[300px] bg-yellow-400 rounded-xl">
+
+            </div>
         </div>
     )   
 }
