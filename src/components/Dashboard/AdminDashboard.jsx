@@ -13,6 +13,7 @@ function AdminDashboard () {
                     <textarea name="" id=""></textarea>
                     <h3>Date</h3>
                     <input type="date" />
+                    <input type="text" placeholder="Employee Name" />
                 </form>
             </div>
         </div>
