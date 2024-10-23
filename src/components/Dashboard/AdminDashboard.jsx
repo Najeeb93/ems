@@ -14,6 +14,7 @@ function AdminDashboard () {
                     <h3>Date</h3>
                     <input type="date" />
                     <input type="text" placeholder="Employee Name" />
+                    <input type="text" placeholder="design, dev, etc" />
                 </form>
             </div>
         </div>
