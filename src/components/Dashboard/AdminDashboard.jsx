@@ -5,11 +5,11 @@ function AdminDashboard() {
   return (
     <div className="h-screen w-full p-10">
       <Header />
-      <div>
-        <form className="flex items-start w-full flex-wrap bg-red-200 justify-between">
-            <div>
+      <div className="p-5 bg-[#1c1c1c] mt-7 rounded">
+        <form className="flex items-start w-full flex-wrap  justify-between">
             <div className="w-1/2">
-            <h3>Task Title</h3>
+            <div>
+            <h3 className="text-sm text-gray-300 mb-0.5">Task Title</h3>
             <input type="text" placeholder="Make ui design" />
           </div>
             <div>
