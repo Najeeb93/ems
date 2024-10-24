@@ -26,9 +26,9 @@ function AdminDashboard() {
           </div>
             </div>
          
-          <div className="w-1/2">
-            <h3>Description</h3>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+          <div className="w-2/5 flex flex-col items-start">
+            <h3 className="text-sm text-gray-300 mb-0.5">Description</h3>
+            <textarea className="w-full h-44 text-sm py-2 px-4 rounded outline-none bg-transparent border-[1px] border-gray-400" name="" id="" ></textarea>
           </div>
           
           <button>Create Task</button>
