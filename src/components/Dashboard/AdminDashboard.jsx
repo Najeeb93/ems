@@ -6,16 +6,13 @@ function AdminDashboard() {
     <div className="h-screen w-full p-10">
       <Header />
       <div>
-        <form className="flex items-center">
-          <div>
+        <form className="flex items-start w-full justify-between">
+            <div>
+            <div>
             <h3>Task Title</h3>
             <input type="text" placeholder="Make ui design" />
           </div>
-          <div>
-            <h3>Description</h3>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </div>
-          <div>
+            <div>
             <h3>Date</h3>
             <input type="date" />
           </div>
@@ -27,6 +24,13 @@ function AdminDashboard() {
             <h3>Category</h3>
             <input type="text" placeholder="design, dev, etc" />
           </div>
+            </div>
+         
+          <div>
+            <h3>Description</h3>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          
           <button>Create Task</button>
         </form>
       </div>
