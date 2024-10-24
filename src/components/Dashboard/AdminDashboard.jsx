@@ -6,9 +6,9 @@ function AdminDashboard() {
     <div className="h-screen w-full p-10">
       <Header />
       <div>
-        <form className="flex items-start w-full justify-between">
+        <form className="flex items-start w-full flex-wrap bg-red-200 justify-between">
             <div>
-            <div>
+            <div className="w-1/2">
             <h3>Task Title</h3>
             <input type="text" placeholder="Make ui design" />
           </div>
@@ -26,7 +26,7 @@ function AdminDashboard() {
           </div>
             </div>
          
-          <div>
+          <div className="w-1/2">
             <h3>Description</h3>
             <textarea name="" id="" cols="30" rows="10"></textarea>
           </div>
