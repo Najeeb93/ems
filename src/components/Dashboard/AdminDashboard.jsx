@@ -6,7 +6,7 @@ function AdminDashboard() {
     <div className="h-screen w-full p-10">
       <Header />
       <div>
-        <form>
+        <form className="flex items-center">
           <div>
             <h3>Task Title</h3>
             <input type="text" placeholder="Make ui design" />
