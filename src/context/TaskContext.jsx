@@ -1,7 +1,10 @@
-import React from "react";
+import React, { Children } from "react";
 
-function TaskContext() {
+function TaskContext({Children}) {
     return (
+        <div>
+        {Children}
+        </div>
 
     )
 }
