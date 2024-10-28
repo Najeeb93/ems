@@ -1,9 +1,9 @@
-import React, { Children } from "react";
+import React from "react";
 
 function AuthContext({Children}) {
     return (
         <div>
-            {Children}
+       {Children}
         </div>
     )
 }
