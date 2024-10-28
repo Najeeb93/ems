@@ -1,8 +1,10 @@
-import React from "react";
+import React, { Children } from "react";
 
-function AuthContext() {
+function AuthContext({Children}) {
     return (
-        
+        <div>
+            {Children}
+        </div>
     )
 }
 
