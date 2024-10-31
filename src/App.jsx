@@ -10,9 +10,12 @@ import { setLocalStorage } from './utlis/localStorge'
 function App() {
   
   const [user, setUser] = useState(null);
+  const handleLogin = ()=>{
+    
+  }
   return (
    <>
-   <Login/>
+   {!user ? <Login/>: ''}
    {/* <EmployeeDashboard/> */}
    {/* <AdminDashboard/> */}
    </>
