@@ -12,9 +12,9 @@ function App() {
   const [user, setUser] = useState(null);
   const handleLogin = (email, password)=>{
     if(email == 'admin@me.com' && password == '123') {
-      console.log('This is Admin');
+      setUser('admin')
     } else if(email == 'user@me.com' && password == '123'){
-      console.log('This is User');
+      setUser('employee')
       
     }
     else{
