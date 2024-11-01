@@ -11,8 +11,12 @@ function App() {
   
   const [user, setUser] = useState(null);
   const handleLogin = (email, password)=>{
-
+    if(email == 'admin@me.com' && password == '123') {
+      console.log('This is Admin');
+      
+    }
   }
+  handleLogin()
   return (
    <>
    {!user ? <Login/>: ''}
