@@ -21,10 +21,10 @@ function App() {
       alert('Invalid Credentials')
     }
   }
-  handleLogin()
+  
   return (
    <>
-   {!user ? <Login/>: ''}
+   {!user ? <Login handleLogin={handleLogin}/>: ''}
    {/* <EmployeeDashboard/> */}
    {/* <AdminDashboard/> */}
    </>
