@@ -10,8 +10,8 @@ import { setLocalStorage } from './utlis/localStorge'
 function App() {
   
   const [user, setUser] = useState(null);
-  const handleLogin = ()=>{
-    
+  const handleLogin = (email, password)=>{
+
   }
   return (
    <>
