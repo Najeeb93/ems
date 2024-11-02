@@ -1,10 +1,12 @@
 import React from "react";
 
-
+export const AuthContext = CreateContext();
 function AuthProvider({children}) {
     return (
         <div>
-            {children}
+            <AuthContext.Provider>
+                {children}
+            </AuthContext.Provider>
         </div>
     )
 }
