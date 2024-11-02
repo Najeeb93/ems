@@ -4,7 +4,7 @@ export const AuthContext = CreateContext();
 function AuthProvider({children}) {
     return (
         <div>
-            <AuthContext.Provider>
+            <AuthContext.Provider value={username}>
                 {children}
             </AuthContext.Provider>
         </div>
