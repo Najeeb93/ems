@@ -1,9 +1,11 @@
 import React from "react";
 
 
-function AuthProvider() {
+function AuthProvider({children}) {
     return (
-
+        <div>
+            {children}
+        </div>
     )
 }
 
