@@ -17,6 +17,9 @@ function App() {
   useEffect(()=> {
     if(authData){
       const loggedInUser = localStorage.getItem("loggedInUser")
+      if(loggedInUser){
+        setUser(loggedInUser.role)
+      }
     }
   }, [authData]);
   const handleLogin = (email, password)=>{
