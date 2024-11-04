@@ -11,6 +11,7 @@ import { AuthContext } from './context/AuthProvider'
 function App() {
   
   const [user, setUser] = useState(null);
+
   const authData = useContext(AuthContext);
   // console.log('authData', authData.employees);
   
@@ -27,11 +28,8 @@ function App() {
       setUser('admin')
       localStorage.setItem('loggedInUser', JSON.stringify({role:'admin'}))
     } else if(authData){
-    const employee =  authData.employees.find((e)=>email == e.email && e.password == password)
-    if(employee){
-
-      setUser({role:employee})
-    }
+      const employee = authData.employees.find((e)=>email == e.email && e.password == password)
+      setUser('employee')
       localStorage.setItem('loggedInUser', JSON.stringify({role:'employee'}))
     }
     else{
