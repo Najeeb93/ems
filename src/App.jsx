@@ -22,9 +22,10 @@ function App() {
   const handleLogin = (email, password)=>{
     if(email == 'admin@me.com' && password == '123') {
       setUser('admin')
+      localStorage.setItem('loggedInUser', JSON.stringify({role:'admin'}))
     } else if(authData && authData.employees.find((e)=>email == e.email && e.password == password)){
       setUser('employee')
-      
+      localStorage.setItem('loggedInUser', JSON.stringify({role:'employee'}))
     }
     else{
       alert('Invalid Credentials')
