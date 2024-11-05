@@ -41,7 +41,7 @@ const [loggedInUserData, setLoggedInUserData] = useState(null);
   return (
    <>
    {!user ? <Login handleLogin={handleLogin}/>: ''}
-   {user == 'admin' ? <AdminDashboard/> : <EmployeeDashboard/>} 
+   {user == 'admin' ? <AdminDashboard/> : (user == employee ?  <EmployeeDashboard data={loggedInUserData}/> : null)} 
    </>
   )
 }
