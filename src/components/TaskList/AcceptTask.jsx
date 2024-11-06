@@ -11,6 +11,10 @@ function AcceptTask() {
             <p className="text-sm mt-2">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi dicta deleniti voluptas adipisci, eaque ipsa illum itaque voluptate repudiandae. Fugiat dolorem sapiente doloremque excepturi molestiae magni, ullam repellendus vel omnis.
             </p>
+            <div>
+                <button>Mark as Completed</button>
+                <button>Mark as Failed</button>
+            </div>
         </div>
     )
 }
