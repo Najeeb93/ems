@@ -8,6 +8,9 @@ function AcceptTask() {
                 <h4 className="text-sm">20 feb 2024</h4>
             </div>
             <h2 className="mt-5 text-2xl font-semibold">Make a youtube video</h2>
+            <p className="text-sm mt-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi dicta deleniti voluptas adipisci, eaque ipsa illum itaque voluptate repudiandae. Fugiat dolorem sapiente doloremque excepturi molestiae magni, ullam repellendus vel omnis.
+            </p>
         </div>
     )
 }
