@@ -12,7 +12,9 @@ function NewTask() {
             <p className="text-sm mt-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eaque nesciunt labore praesentium, velit sint sunt ipsam aliquam id at vero consequatur, tenetur maxime. Eos ab expedita quibusdam nobis quos.
             </p>
-
+        <div className="mt-4">
+        <button>Accept Task</button>
+        </div>
         </div>
     )
 }
