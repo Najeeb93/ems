@@ -12,6 +12,9 @@ function FailedTask() {
             <p className="text-sm mt-2">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur accusantium at nostrum sed nihil, error officiis, alias veniam pariatur distinctio dolor repellat itaque nesciunt, expedita fugit! Eaque nisi laborum pariatur!
             </p>
+            <div className="mt-2">
+            <button className="w-full">Complete</button>
+            </div>
         </div>
     )
 }
