@@ -8,6 +8,7 @@ function NewTask() {
                 <h4 className="text-sm">20 feb 2024</h4>
 
             </div>
+            <h2 className="mt-5 text-2xl font-semibold">Make youtube video</h2>
 
         </div>
     )
