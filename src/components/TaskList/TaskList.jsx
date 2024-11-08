@@ -1,5 +1,6 @@
 import React from "react";
 import AcceptTask from "./AcceptTask";
+import NewTask from "./NewTask";
 
 function TaskList({data}) {
     return (
@@ -7,6 +8,9 @@ function TaskList({data}) {
          {data.tasks.map((elem, idx)=>{
             if(elem.active) {
                 return <AcceptTask key={idx} data={elem} />
+            }
+            if(elem.newTask) {
+                return <NewTask key={idx} data={elem} />
             }
          })}
 
