@@ -1,6 +1,7 @@
 import React from "react";
 import AcceptTask from "./AcceptTask";
 import NewTask from "./NewTask";
+import CompleteTask from "./CompleteTask";
 
 function TaskList({data}) {
     return (
@@ -11,6 +12,9 @@ function TaskList({data}) {
             }
             if(elem.newTask) {
                 return <NewTask key={idx} data={elem} />
+            }
+            if(elem.completed) {
+                return <CompleteTask key={idx} data={elem} />
             }
          })}
 
