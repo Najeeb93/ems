@@ -14,7 +14,13 @@ function App() {
 const [loggedInUserData, setLoggedInUserData] = useState(null);
   const [userData, SetUserData] = useContext(AuthContext)
   
-
+useEffect(() => {
+  const loggedInUser = localStorage.getItem('loggedInUser')
+  
+  if (loggedInUser) {
+    
+  }
+})
 
   const handleLogin = (email, password)=>{
     if(email == 'admin@me.com' && password == '123') {
