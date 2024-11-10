@@ -10,7 +10,7 @@ function NewTask({data}) {
             </div>
             <h2 className="mt-5 text-2xl font-semibold">{data.taskTitle}</h2>
             <p className="text-sm mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eaque nesciunt labore praesentium, velit sint sunt ipsam aliquam id at vero consequatur, tenetur maxime. Eos ab expedita quibusdam nobis quos.
+            {data.taskDescription}
             </p>
         <div className="mt-4">
         <button>Accept Task</button>
