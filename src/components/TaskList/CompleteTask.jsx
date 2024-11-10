@@ -10,7 +10,7 @@ function CompleteTask({data}) {
             </div>
             <h2 className="mt-5 text-2xl font-semibold">{data.taskTitle}</h2>
             <p className="text-sm mt-2">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius alias debitis quae soluta repudiandae similique quasi asperiores eaque assumenda at cum quas voluptatum aperiam, porro provident sequi doloremque ullam hic.
+                {data.taskDescription}
             </p>
             <div className="mt-2">
                 <button className="w-full">Complete</button>
