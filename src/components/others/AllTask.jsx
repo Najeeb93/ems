@@ -9,7 +9,7 @@ function AllTask() {
                 <div className="bg-red-400 mb-2  py-2 px-4 flex justify-between rounded">
                     <h2 className="text-lg font-medium w-1/5">Employee Name</h2>
                     <h3 className="text-lg font-medium w-1/5">New Task</h3>
-                    <h5>Status</h5>
+                    <h5 className="text-lg font-medium w-1/5">Active Task</h5>
                 </div>
                 <div className="bg-green-400 mb-2 py-2 px-4 flex justify-between rounded">
                     <h2>Username</h2>
