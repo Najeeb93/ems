@@ -13,9 +13,13 @@ function AllTask() {
                     <h5 className="text-lg font-medium w-1/5">Completed</h5>
                     <h5 className="text-lg font-medium w-1/5">Failed</h5>
                 </div>
-              
-             
-              
+                <div>
+                    {authData.employee.map(function(elem) {
+                        return <div>
+                            
+                        </div>
+                    })}
+                </div>
 
             </div>
     )
