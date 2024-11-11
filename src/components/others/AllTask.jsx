@@ -15,7 +15,10 @@ function AllTask() {
       <div>
         {authData.employee.map(function (elem) {
           return (
-            <div className="border-2 border-emerald-500 mb-2 py-2 px-4 flex justify-between rounded"></div>
+            <div className="border-2 border-emerald-500 mb-2 py-2 px-4 flex justify-between rounded">
+                <h2 className="w-1/5">{elem.firstName}</h2>
+                <h3></h3>
+            </div>
           );
         })}
       </div>
