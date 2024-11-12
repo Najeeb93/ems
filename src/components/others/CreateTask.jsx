@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useContext } from "react";
 import { AuthContext } from "../../context/AuthProvider";
 
@@ -6,6 +6,8 @@ import { AuthContext } from "../../context/AuthProvider";
 function CreateTask() {
 
   const [userData, setUserData] = useContext(AuthContext)
+
+  const [taskTitle, setTaskTitle] = useState('')
     return (
         <div className="p-5 bg-[#1c1c1c] mt-7 rounded">
         <form className="flex items-start w-full flex-wrap  justify-between">
