@@ -23,8 +23,12 @@ function CreateTask() {
     setTaskTitle('')
   }
     return (
-        <div className="p-5 bg-[#1c1c1c] mt-7 rounded">
-        <form className="flex items-start w-full flex-wrap  justify-between">
+        <div className="p-5 bg-[#1c1c1c] mt-5 rounded">
+        <form
+        onSubmit={(e)=> {
+          submitHandler(e)
+        }} 
+        className="flex items-start w-full flex-wrap  justify-between">
             <div className="w-1/2">
             <div>
             <h3 className="text-sm text-gray-300 mb-0.5">Task Title</h3>
