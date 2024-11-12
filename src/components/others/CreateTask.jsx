@@ -12,6 +12,16 @@ function CreateTask() {
   const [taskDate, setTaskDate] = useState('')
   const [asignTo, setAsignTo] = useState('')
   const [category, setCategory] = useState('')
+
+  const submitHandler = (e) => {
+    e.preventDefault()
+
+    setTaskDate('')
+    setAsignTo('')
+    setCategory('')
+    setTaskDescription('')
+    setTaskTitle('')
+  }
     return (
         <div className="p-5 bg-[#1c1c1c] mt-7 rounded">
         <form className="flex items-start w-full flex-wrap  justify-between">
