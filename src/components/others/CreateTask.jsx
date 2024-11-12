@@ -9,6 +9,7 @@ function CreateTask() {
 
   const [taskTitle, setTaskTitle] = useState('')
   const [taskDescription, setTaskDescription] = useState('')
+  const [taskDate, setTaskDate] = useState('')
     return (
         <div className="p-5 bg-[#1c1c1c] mt-7 rounded">
         <form className="flex items-start w-full flex-wrap  justify-between">
