@@ -24,7 +24,7 @@ function CreateTask() {
 
     data.forEach(function(elem) {
       if(asignTo == elem.firstName) {
-        
+        elem.tasks.push(newTask)
       }
     })
     setTaskDate('')
