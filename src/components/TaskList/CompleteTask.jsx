@@ -12,8 +12,8 @@ function CompleteTask({data}) {
             <p className="text-sm mt-2">
                 {data.taskDescription}
             </p>
-            <div className="mt-2">
-                <button className="w-full">Complete</button>
+            <div className="mt-6">
+                <button className="w-full bg-green-600 rounded font-medium py-1 text-xs">Complete</button>
             </div>
         </div>
     )
