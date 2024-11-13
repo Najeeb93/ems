@@ -28,11 +28,11 @@ useEffect(() => {
     if(email == 'admin@me.com' && password == '123') {
       setUser('admin')
       localStorage.setItem('loggedInUser', JSON.stringify({role:'admin'}))
-    } else if(authData){
-      const employee = authData.employees.find((e)=>email == e.email && e.password == password)
+    } else if(userData){
+      const employee = userData.find((e)=>email == e.email && e.password == password)
       setUser('employee')
       setLoggedInUserData(employee)
-      localStorage.setItem('loggedInUser', JSON.stringify({role:'employee'}))
+      localStorage.setItem('loggedInUser', JSON.stringify({role:'employee', data:employee}))
     }
     else{
       alert('Invalid Credentials')
