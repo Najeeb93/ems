@@ -25,8 +25,11 @@ function CreateTask() {
     data.forEach(function(elem) {
       if(asignTo == elem.firstName) {
         elem.tasks.push(newTask)
+        elem.taskCounts.newTask = elem.taskCounts.newTask + 1
       }
     })
+    setUserData(data)
+    
     setTaskDate('')
     setAsignTo('')
     setCategory('')
