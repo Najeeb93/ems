@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Header({data}) {
+function Header(props) {
 
   const logOutUser = () => {
 
