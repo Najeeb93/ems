@@ -13,7 +13,7 @@ function CreateTask() {
   const [asignTo, setAsignTo] = useState('')
   const [category, setCategory] = useState('')
 
-  const [newTask, setNewTask] = useState('')
+  const [newTask, setNewTask] = useState({})
 
   const submitHandler = (e) => {
     e.preventDefault()
